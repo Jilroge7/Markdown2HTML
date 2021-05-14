@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Script to take 2 args
+Script to take 2 args.
 """
 import sys
 import os
