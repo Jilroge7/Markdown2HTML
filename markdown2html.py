@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-"""
-Script for markdown to HTML
-"""
+'''
+    Script for markdown to HTML
+'''
 import sys
 import os
 from os import path
-from markdown import markdown
+import re
+import hashlib
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
@@ -20,5 +21,4 @@ if __name__ == "__main__":
     else:
         with open(sys.argv[1]) as md:
             with open(sys.argv[2], 'w') as html:
-
-        exit(0)
+                exit(0)
