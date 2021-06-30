@@ -18,6 +18,7 @@ if __name__ == "__main__":
             exit(1)
 
     else:
-        with open(sys.argv[1]) as mfile:
+        with open(sys.argv[1]) as md:
             with open(sys.argv[2], 'w') as html:
-                exit(0)
+
+        exit(0)
